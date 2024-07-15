@@ -253,14 +253,9 @@ img {
 
 .hero {
   padding-bottom: 290px;
-  
-}
-
-.hero {
   background-image: url("/images/img.png");
   background-repeat: no-repeat;
-  background-size: 1586px;
-  background-position: -168px -171px;
+  background-position: calc(50% + -50px) calc(50% - 20px);
 }
 
 
@@ -496,10 +491,6 @@ img {
   padding-bottom: 40px;
 }
 
-
-
-
-
 .servicee-wrap {
   background-color: #fff;
   margin-top: 14px;
@@ -639,7 +630,6 @@ img {
   background-repeat: no-repeat;
   content: "";
   width: 1444px;
-  height: 308px;  
 }
 
 .subscribe-text-wrap {
@@ -845,11 +835,6 @@ img {
 }
 
 /* section contact styles  */
-
-/* .contact-inner {
-  width: 1920px;
-  margin-inline: auto;
-} */
 
 .contact {
   width: 1900px;
@@ -1173,15 +1158,6 @@ img {
   border-color: 2px solid #FFBD54;
   color: #333333;
 }
-
-/* .hero {
-  background-image: url("/images/kucukchaimg.jpg"), url("/images/totiimg.png");
-  background-repeat: no-repeat;
-  background-size: 730px 890px, 319px 430px;
-  background-position: -90px 0;
-} */
-
-
 
 .services-button::before {
   background-image: url("/images/leftvector.svg");
